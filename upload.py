@@ -11,7 +11,7 @@ REMOTE_HOME = "/var/www/html/update/"
 REMOTE_HOME_TEST = "/var/www/html/update_test/"
 
 parser = argparse.ArgumentParser(description='更新包打包软件')
-parser.add_argument('-ip'           , default="120.77.55.235", help="ip")
+parser.add_argument('-ip'           , default="111.111.111.111", help="ip")
 parser.add_argument('-port'         , default=22, help="端口" , type=int )
 parser.add_argument('-username'     , default="xxx", help="登录名")
 parser.add_argument('-password'     , default="xxx", help="密码")
